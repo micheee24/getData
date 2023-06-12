@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --mainColor: #7395AE;
+  --secondColor: #557A95;
+  --textColor: rgb(224, 224, 224);
+
+}
+
+body {
+  font-family: 'EB Garamond', serif;
+  background: var(--mainColor);
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  margin: 20px;
+  background: var(--secondColor);
+  color: var(--textColor);
+  border-radius: 8px;
+}
+
+a {
+  color: var(--textColor)
+}
+
+.list-group-item {
+  background: var(--mainColor);
+  color: var(--textColor);
+  margin: 0px 400px 0px 50px;
+}
+
+.search {
+  margin: 0px 0px 0px 500px;
+  background: var(--secondColor);
+  border-radius: 8px;
+  border: 2px var(--textColor) solid;
+  color: var(--textColor);
+}
+
+.search:hover {
+  background-color: bisque;
+}
+
+.search-button {
+  margin-left: 5px;
+  border-radius: 8px;
+  border: none;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0px 10px 0px;
+
+}
+
+.number-input {
+  
+  margin: 50;
+  border-radius: 8px;
+  background: var(--secondColor);
+  border: 2px var(--textColor) solid;
+  color: var(--textColor);
+}
